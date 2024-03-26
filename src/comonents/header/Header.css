@@ -1,0 +1,36 @@
+.authorizarionHeaderWrapper{
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.authHeaderRightSide{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.languageSelect{
+    width: 97px;
+    background-color: #fff;
+    border-width: 0px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.04px;
+    color: black
+}
+.authHeaderHelp{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.04px;
+    color: black;
+}
+@media screen and (max-width: 680px) {
+    .authorizarionHeaderWrapper{
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 32px;
+    }
+}

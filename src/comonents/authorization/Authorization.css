@@ -1,0 +1,76 @@
+.authorizationCardWrapper{
+    position: absolute;
+    top: 88px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.authCardTitle{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.76px;
+    text-align: center;
+    color: black;
+}
+.authCardWrapper{
+    margin-top: 24px;
+    width: 451px;
+    height: 478px;
+    border-radius: 16px;
+    border: 1px solid #D1E0FF;
+    padding: 0px;
+}
+.authCardTop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.authCardTop img{
+    width: 48px;
+    height: 48px;
+}
+.nameAndPassword{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.04px;
+    color: black;
+    margin-top: 12px;
+}
+.authInstruction{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.04px;
+    text-align: center;
+    color: #757575;
+    margin-top: 8px;
+}
+.login-form{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.login-form input{
+    height: 54px;
+}
+.showParssword{
+    margin-top: 8px;
+}
+.login-form-button{
+    width: 109px;
+    height: 48px;
+    align-self: flex-end;
+}
+@media screen and (max-width: 680px) {
+    .authorizationCardWrapper{
+        top: 60px;
+    }
+    .authCardWrapper{
+        width: 344px;
+        height: 478px;
+    }
+    .authInstruction{
+        width: 320px;
+    }
+}
